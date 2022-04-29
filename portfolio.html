@@ -21,33 +21,37 @@
 
   <body class="body">
 
-    <!--Шапка Сайта-->
+     <!--Шапка Сайта-->
     <header class="page-header">
-      <div class="container header-container">
-        <a href="./index.html" class="logo">Web<span class="logo-header">Studio</span></a>
+      <div class="container page-header--position">
+        <a href="./index.html" class="logo">Web<span class="page-header--logo">Studio</span></a>
         <!-- navigation section-->
         <nav class="header-nav">
-          <ul class="site-nav list">
-            <li class="header-item"><a href="./index.html" class="header-link link">Студия</a></li>
-            <li class="header-item"><a href="./portfolio.html" class="header-link link current">Портфолио</a></li>
-            <li class="header-item">
-              <a href="https://www.google.com" class="header-link link">Контакты</a>
+          <ul class="header-nav__list list">
+            <li class="header-nav__item">
+              <a href="./index.html" class="header-nav__link link">Студия</a>
+            </li>
+            <li class="header-nav__item">
+              <a href="./portfolio.html" class="header-nav__link header-nav__link--current link">Портфолио</a>
+            </li>
+            <li class="header-nav__item">
+              <a href="https://www.google.com" class="header-nav__link link">Контакты</a>
             </li>
           </ul>
         </nav>
         <!-- contacts section-->
-        <ul class="contacts contacts-header list">
-          <li class="contacts-item">
-            <a class="link contacts-link" href="mailto:info@devstudio.com">
-              <svg class="contacts-icon" width="16" height="12">
+        <ul class="contacts-header contacts list">
+          <li class="contacts-header__item">
+            <a class="contacts-header__link link" href="mailto:info@devstudio.com">
+              <svg class="contacts-header__icon" width="16" height="12">
                 <use href="./images/icons.svg#envelope"></use>
               </svg>
               info@devstudio.com
             </a>
           </li>
-          <li class="contacts-item">
-            <a class="link contacts-link" href="tel:+380961111111">
-              <svg class="contacts-icon" width="10" height="16">
+          <li class="contacts-header__item">
+            <a class="contacts-header__link link" href="tel:+380961111111">
+              <svg class="contacts-header__icon" width="10" height="16">
                 <use href="./images/icons.svg#smartphone"></use>
               </svg>
               +380961111111
@@ -67,20 +71,20 @@
           <h2 class="visually-hidden">Проекты</h2>
           <!--Фильтры-->
           <ul class="filters list">
-            <li class="filters-item">
-              <button type="button" class="filters-button">Все</button>
+            <li class="filters__item">
+              <button type="button" class="filters__button">Все</button>
             </li>
-            <li class="filters-item">
-              <button type="button" class="filters-button">Веб-сайты</button>
-            </li class="filters-item">
-            <li class="filters-item">
-              <button type="button" class="filters-button">Приложения</button>
+            <li class="filters__item">
+              <button type="button" class="filters__button">Веб-сайты</button>
+            </li class="filters__item">
+            <li class="filters__item">
+              <button type="button" class="filters__button">Приложения</button>
             </li>
-            <li class="filters-item">
-              <button type="button" class="filters-button">Дизайн</button>
+            <li class="filters__item">
+              <button type="button" class="filters__button">Дизайн</button>
             </li>
-            <li class="filters-item">
-              <button type="button" class="filters-button">Маркетинг</button>
+            <li class="filters__item">
+              <button type="button" class="filters__button">Маркетинг</button>
             </li>
           </ul>
 
@@ -257,27 +261,27 @@
       </section>
     </main>
 
-    <!--Футер-->
+   <!-- Футер -->
     <footer class="footer">
-      <div class="container footer-position">
+      <div class="container footer--position">
         <!-- Логотип и Адресы -->
-        <div class="footer-container">
-          <a href="./index.html" class="logo logo-ft">Web<span class="logo-footer">Studio</span></a>
+        <div class="footer__container">
+          <a href="./index.html" class="logo">Web<span class="footer--logo">Studio</span></a>
           <address>
-            <ul class="contacts contacts-footer list">
-              <li class="footer-item">
+            <ul class="contacts-footer list">
+              <li class="footer__item">
                 <a
                   href="https://goo.gl/maps/wtgL4qWBJrjaeM2FA"
                   target="_blank"
-                  class="footer-address actual"
+                  class="footer__link actual"
                   >г. Киев, пр-т Леси Украинки, 26</a
                 >
               </li>
-              <li class="footer-item">
-                <a href="mailto:info@devstudio.com" class="footer-address">info@devstudio.com</a>
+              <li class="footer__item">
+                <a href="mailto:info@devstudio.com" class="footer__link">info@devstudio.com</a>
               </li>
-              <li class="footer-item">
-                <a href="tel:+380961111111" class="footer-address">+380961111111</a>
+              <li class="footer__item">
+                <a href="tel:+380961111111" class="footer__link">+380961111111</a>
               </li>
             </ul>
           </address>
@@ -329,8 +333,8 @@
             />
           </label>
 
-          <button type="submit" class="hero-button footer-button">
-            Подписаться<span class="footer-button-icon"
+          <button type="submit" class="button footer-button">
+            Подписаться<span class="footer-button__icon"
               ><svg class="" width="24" height="24">
                 <use href="./images/icons.svg#send"></use></svg
             ></span>
