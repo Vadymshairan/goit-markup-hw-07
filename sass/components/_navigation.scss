@@ -34,13 +34,10 @@
     border-radius: 2px;
   }
 
-  &:focus {
-    color: var(--accent-color);
-  }
-
+  &:focus,
   &:hover {
-  color: var(--accent-color);
-  }
+    color: var(--accent-color);
+  }  
 }
 
 .header-nav__item:not(:last-child) {
