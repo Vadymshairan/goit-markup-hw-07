@@ -1,0 +1,29 @@
+.page-header {
+  border-bottom: 1px solid #ececec;
+  padding-top: 24px;
+  padding-bottom: 25px;
+}
+
+.logo {
+  color: var(--accent-color);
+  font-family: Raleway, sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  text-decoration: none;
+
+  margin-right: 93px;
+}
+
+.page-header--logo {
+  color: #000000;
+}
+
+.page-header--position {
+  display: flex;
+  align-items: center;
+}
+
+.header-nav__item:not(:last-child) {
+  margin-right: 50px;
+}

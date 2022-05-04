@@ -7,29 +7,9 @@
 /* белый #FFFFFF */
 /* цвет телефона и maila в футере rgba(255, 255, 255, 0.6); */
 
-:root {
-  --primary-text-color: #757575;
-  --title-text-color: #212121;
-  --accent-color: #2196f3;
-  --primary-white-color: #ffffff;
-  --icons-color-main: #afb1b8;
-}
 
-p,
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  margin: 0;
-}
 
-ul,
-ol {
-  margin: 0;
-  padding: 0;
-}
+
 
 button {
   cursor: pointer;
@@ -48,13 +28,7 @@ img {
   letter-spacing: 0.03em;
 }
 
-.list {
-  list-style: none;
-}
 
-.link {
-  text-decoration: none;
-}
 
 .container {
   width: 1200px;
@@ -84,35 +58,7 @@ img {
 
 /* -----------------------Шапка Сайта--------------------------- */
 
-.page-header {
-  border-bottom: 1px solid #ececec;
-  padding-top: 24px;
-  padding-bottom: 25px;
-}
 
-.logo {
-  color: var(--accent-color);
-  font-family: Raleway, sans-serif;
-  font-weight: 700;
-  font-size: 26px;
-  line-height: 1.19;
-  text-decoration: none;
-
-  margin-right: 93px;
-}
-
-.page-header--logo {
-  color: #000000;
-}
-
-.page-header--position {
-  display: flex;
-  align-items: center;
-}
-
-.header-nav__item:not(:last-child) {
-  margin-right: 50px;
-}
 
 /* <!----------------------navigation section---------------------> */
 
