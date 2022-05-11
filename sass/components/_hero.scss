@@ -17,11 +17,9 @@
   margin: 0 auto;
 
   color: var(--primary-white-color);
-  font-weight: 900;
-  font-size: 44px;
-  line-height: 1.36;
-  text-align: center;
-  letter-spacing: 0.06em;
+  @include font(900, 44px, 1.31, 0.06em);
+
+  text-align: center;  
   text-transform: uppercase;
 
   margin-bottom: 30px;
